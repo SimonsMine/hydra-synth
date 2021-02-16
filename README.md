@@ -1,3 +1,15 @@
+### Hydra-Synth-Mine
+An extension of Hydra-Synth by SimonsMine, 99.9% Vanilla hydra by ojack with some custom extensions.
+
+### Hydra-Synth-Mine Features
+Midi control change (cc) channel integration which is easily accesible via a global variable.
+```
+// Get the value from cc channel 2 (what this is in your midi controller is hardware dependent)
+m.cc[2]
+// Works with the regular hydra functions with lambda's, similar to working with audio and the time variable
+osc(()=>(m.cc[1])).out() // twist / tap / slide that control to see the output change
+```
+
 ### Hydra-Synth
 
 Video synth engine for [hydra](https://github.com/ojack/hydra).

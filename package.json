@@ -1,7 +1,7 @@
 {
-  "name": "hydra-synth",
-  "version": "1.3.5",
-  "description": "base synth for hydra-editor",
+  "name": "hydra-synth-mine",
+  "version": "1.0.0",
+  "description": "base synth for hydra-editor, originally by ojack, extended by SimonsMine",
   "main": "index.js",
   "scripts": {
     "test": "mocha",
@@ -12,10 +12,6 @@
     "build": "npm run build-hydra && npm run build-shader-generator",
     "coverage": "nyc npm run test"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/ojack/hydra-synth.git"
-  },
   "keywords": [
     "webgl",
     "regl",
@@ -24,12 +20,8 @@
     "synth"
   ],
   "unpkg": "dist/hydra-synth.js",
-  "author": "ojack",
+  "author": "SimonsMine",
   "license": "AGPL",
-  "bugs": {
-    "url": "https://github.com/ojack/hydra-synth/issues"
-  },
-  "homepage": "https://github.com/ojack/hydra-synth#readme",
   "dependencies": {
     "meyda": "^4.1.3",
     "mouse-change": "^1.4.0",
